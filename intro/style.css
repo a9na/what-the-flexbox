@@ -159,8 +159,10 @@ input::-moz-focus-inner{
 }
 
 /* Box-sizing border-box */
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
+* { -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
 
 /* Some default styles to make each box visible */
 .box {
@@ -186,7 +188,7 @@ input::-moz-focus-inner{
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display:flex;
-  border:10px solid goldenrod;
-  height:100vh;
+  display: flex;
+  border: 10px solid goldenrod;
+  height: 100vh;
 }
