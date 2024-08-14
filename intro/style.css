@@ -186,7 +186,6 @@ input::-moz-focus-inner{
 .box10 { background:#16a085;}
 
 
-/* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
   border: 10px solid goldenrod;
